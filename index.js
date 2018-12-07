@@ -31,4 +31,14 @@ let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
 
 obj[1]
 arr[0]
-console.log(obj, arr)
+console.log(obj[1], arr[0])
+
+let sayHi = function() {
+    console.log('Hi')
+}
+
+let sayHello = sayHi
+
+//sayHi()
+sayHello()
+console.log(sayHello)
