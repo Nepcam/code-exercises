@@ -31,3 +31,4 @@ let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
 
 obj[1]
 arr[0]
+console.log(obj, arr)
