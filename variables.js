@@ -1,6 +1,4 @@
-function sayHello() {
-    console.log('sayHello')
-}
+let sayHello = require('./functions')
 
 function runIt(it, thisThing) {
     it()
