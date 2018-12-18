@@ -9,6 +9,6 @@ function runIt(it, thisThing) {
 
 runIt(sayHello, console.log)
 
+runIt()
 
-
-module.exports = sayHello
+module.exports = sayHellor
