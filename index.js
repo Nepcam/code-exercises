@@ -1,4 +1,4 @@
-let sayHello = require('./functions')
+//let sayHello = require('./functions')
 
 let types = {
     s: "this is a string",
@@ -22,34 +22,34 @@ console.log('i am a function?', typeof types.fu)
 console.log('i am a array?', typeof types.a)
 console.log('i am a null?', typeof types.n)
 
-let obj = { //to access data all you need to do is call the key
-    0: 'zero',
-    1: 'one',
-    2: 'two'
-}
-
-let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
-
-obj[1]
-arr[0]
-console.log(obj[1], arr[0])
-
-let sayHi = function() {
-    console.log('Hi')
-}
-
-let sayHello = sayHi
-
-sayHi()
-sayHello()
-console.log(sayHello)
-
-// let obj = {
-//     1: 'Kelly',
-//     0: 'Engie'
+// let obj = { //to access data all you need to do is call the key
+//     0: 'zero',
+//     1: 'one',
+//     2: 'two'
 // }
 
-// let arr = ['Kelly', 'Engie']
+// let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
 
-// console.log(obj[0])
-// console.log(arr[0])
+// obj[1]
+// arr[0]
+// console.log(obj[1], arr[0])
+
+// let sayHi = function() {
+//     console.log('Hi')
+// }
+
+// let sayHello = sayHi
+
+// sayHi()
+// sayHello()
+// console.log(sayHello)
+
+// // let obj = {
+// //     1: 'Kelly',
+// //     0: 'Engie'
+// // }
+
+// // let arr = ['Kelly', 'Engie']
+
+// // console.log(obj[0])
+// // console.log(arr[0])
