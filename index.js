@@ -12,27 +12,28 @@ let types = {
     n: null
 }
 
-console.log('i am a string?', typeof types.s)
-console.log('i am a booleon?', typeof types.b)
-console.log('i am a float?', typeof types.f)
-console.log('i am a number or integer?', typeof types.nu)
-console.log('i am a object?', typeof types.o)
-console.log('i am a undefined?', typeof types.u)
-console.log('i am a function?', typeof types.fu)
-console.log('i am a array?', typeof types.a)
-console.log('i am a null?', typeof types.n)
+// console.log('i am a string?', typeof types.s)
+// console.log('i am a booleon?', typeof types.b)
+// console.log('i am a float?', typeof types.f)
+// console.log('i am a number or integer?', typeof types.nu)
+// console.log('i am a object?', typeof types.o)
+// console.log('i am a undefined?', typeof types.u)
+// console.log('i am a function?', typeof types.fu)
+// console.log('i am a array?', typeof types.a)
+// console.log('i am a null?', typeof types.n)
 
-// let obj = { //to access data all you need to do is call the key
-//     0: 'zero',
-//     1: 'one',
-//     2: 'two'
-// }
+let obj = { //to access data all you need to do is call the key
+    0: 'zero',
+    1: 'one',
+    2: 'two'
+}
 
-// let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
+let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
 
-// obj[1]
-// arr[0]
-// console.log(obj[1], arr[0])
+obj[1]
+arr[0]
+console.log(obj[2], arr[0])
+// Within an object you call the key: of the string. Within an array you call number of the string in the order it sits in 
 
 // let sayHi = function() {
 //     console.log('Hi')
