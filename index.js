@@ -32,7 +32,7 @@ let arr = ['zero', 'one', 'two'] // here you need to call the data in the []
 
 obj[1]
 arr[0]
-console.log(obj[2], arr[0])
+console.log(obj[0], arr[0])
 // Within an object you call the key: of the string. Within an array you call number of the string in the order it sits in 
 
 // let sayHi = function() {
@@ -54,3 +54,6 @@ console.log(obj[2], arr[0])
 
 // // console.log(obj[0])
 // // console.log(arr[0])
+
+// -----------------------------------------------------------------------------------------------
+
