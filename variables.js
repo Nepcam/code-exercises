@@ -1,4 +1,4 @@
-let sayHello = require('./functions')
+const sayHello = require('./functions')
 
 function runIt(it, thisThing) {
     it()
