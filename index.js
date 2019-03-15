@@ -35,25 +35,24 @@ arr[0]
 console.log(obj[0], arr[0])
 // Within an object you call the key: of the string. Within an array you call number of the string in the order it sits in 
 
-// let sayHi = function() {
-//     console.log('Hi')
-// }
+let sayHi = function() {
+    console.log('Hi')
+}
 
-// let sayHello = sayHi
+let sayHello = sayHi
 
-// sayHi()
-// sayHello()
-// console.log(sayHello)
+sayHi()
+sayHello()
+console.log(sayHello)
 
-// // let obj = {
-// //     1: 'Kelly',
-// //     0: 'Engie'
-// // }
+let obj = {
+    1: 'Kelly',
+    0: 'Engie'
+}
 
-// // let arr = ['Kelly', 'Engie']
+let arr = ['Kelly', 'Engie']
 
-// // console.log(obj[0])
-// // console.log(arr[0])
+console.log(obj[0])
+console.log(arr[0])
 
-// -----------------------------------------------------------------------------------------------
 
