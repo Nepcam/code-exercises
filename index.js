@@ -39,7 +39,7 @@ let sayHi = function() {
     console.log('Hi')
 }
 
-let sayHello = sayHi
+let sayHello = sayHi // having a play with functions and variables calling each other out
 
 sayHi()
 sayHello()
@@ -56,3 +56,8 @@ console.log(obj[0])
 console.log(arr[0])
 
 
+function runMe(myFunc) {
+    myfunc()
+}
+
+runMe(sayHello)
