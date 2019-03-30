@@ -7,4 +7,5 @@ const bikes = ['fatboy', 'soft-tail', 'night-train']
 // Method 1: Concat
 //[cars].concat(cars, bikes)
 console.log(cars)
+console.log(bikes)
 
