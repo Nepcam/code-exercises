@@ -40,3 +40,4 @@ let sayHi = function() {
 
 let sayHello = sayHi
 
+// Test - why is my contributions not being counted on github?
