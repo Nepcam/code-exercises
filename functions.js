@@ -40,7 +40,6 @@ let sayHi = function() {
 
 let sayHello = sayHi
 
-// Test - why is my contributions not being counted on github?
 
 let types = {
     s: "this is a string",
