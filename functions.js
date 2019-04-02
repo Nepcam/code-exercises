@@ -62,3 +62,22 @@ console.log('i am a undefined?', typeof types.u)
 console.log('i am a function?', typeof types.fu)
 console.log('i am a array?', typeof types.a)
 console.log('i am a null?', typeof types.n)
+
+/ function printSomething() {
+    //   console.log('something')
+    // }
+    
+    // console.log(typeof printSomething)
+    functions['printSomething']()
+    
+    var anotherThing = printSomething
+    
+    console.log(typeof anotherThing)
+    
+    anotherThing()
+    
+    function callMyFunction(func) {
+      func()
+    }
+    console.log('wat?')
+    callMyFunction(anotherThing)
